@@ -50,11 +50,11 @@ return [
 
         'sqs' => [
             'driver' => 'sqs',
-            'key' => env('SQS_KEY', 'AKIAIC7G3UVXWBLJAR6Q'),
-            'secret' => env('SQS_SECRET', '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'),
-            'prefix' => env('SQS_PREFIX', 'https://sqs.us-west-2.amazonaws.com/469540359257'),
-            'queue' => env('SQS_QUEUE', 'test-queue'),
-            'region' => env('SQS_REGION', 'us-west-2'),
+            'key' => env('SQS_KEY', ''),
+            'secret' => env('SQS_SECRET', ''),
+            'prefix' => env('SQS_PREFIX', ''),
+            'queue' => env('SQS_QUEUE', ''),
+            'region' => env('SQS_REGION', ''),
         ],
 
         'redis' => [
